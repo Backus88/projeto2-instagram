@@ -373,6 +373,10 @@ input{
     display: none;  
 }
 
+.menubottom{
+    display: none;
+}
+
 @media (max-width: 935px){
     .menulateral{
         display: none;
@@ -436,12 +440,26 @@ input{
         margin-top: 2px;
         border-right: none;
         border-left: none;
+        margin-bottom: 55px;
     }
     .seta{
         display: none;
     }
     .principal{
         margin-top: 55px;
+        height: auto;
+    }
+    .menubottom{
+        display: inline;
+        display: flex;
+        position: fixed;
+        height: 54px;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        bottom: 1px;
+        z-index: 2;
+        background-color: #FFFFFF;
     }
 
 }
