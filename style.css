@@ -321,13 +321,13 @@ input{
 }
 
 .menulateral{
-    position: fixed;
+    position: sticky;
     top: 90px;
     display: flex;
     flex-direction: column;
     width: 293px;
     height: 500px;
-    margin-left: 650px;
+    margin-left: 20px;
 }
 
 .titulolateral{
