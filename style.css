@@ -29,20 +29,27 @@ input{
     margin: 0px 16px;
 }
 
-
-.menu{
-    width: 100%;
+.menufixed{
     position: fixed;
     top: 0;
     left:0;
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-evenly;
+    width: 100%;
+    margin: 0 auto;
     height: 54px;
     border-bottom: solid 1px #DBDBDB;
-    margin: 0 auto;
     background-color: #FFFFFF;
     z-index: 2;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 955px;
 }
 
 .menuesquerda{
@@ -84,6 +91,9 @@ input{
 .paddingmenu{
     box-sizing: content-box;
     padding-right: 20px;
+}
+.menospadding{
+    padding-right: 0px;
 }
 
 .principal{
