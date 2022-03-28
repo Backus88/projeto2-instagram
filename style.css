@@ -227,16 +227,16 @@ input{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 76px;
+    height: 150px;
 }
 .finalcima{
-    margin-top: 5px;
+    margin-top: 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 50%;
+    height: 32%;
 }
 
 .iconeesquerda{
@@ -260,8 +260,8 @@ input{
     flex-direction: row;
     align-items: center;
     width: 100%;
-    height: 50%;
-    margin-bottom: 5px;
+    height: 32%;
+    margin-bottom: 0px;
 }
 
 .imgcurtir{
@@ -279,6 +279,45 @@ input{
 
 .negrito{
     font-weight: 700;
+}
+
+.comentarios{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 36%;
+    border-top: 1px solid #DBDBDB;
+}
+
+.comentario{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.noborders{
+    text-align: start;
+    border-style: hidden;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.publicar{
+    margin-right: 15px;
+}
+.publicar :nth-child(1){
+    color: rgb(0,146,246,0.4);
+    transition: color 300ms;
+    font-size: 14px;
+    line-height: 18px;
+}
+.publicar :nth-child(1):hover{
+    color: rgb(0,146,246,1);
+    cursor: pointer;
 }
 
 .menulateral{
@@ -388,6 +427,7 @@ input{
 .menubottom{
     display: none;
 }
+
 
 @media (max-width: 935px){
     .menulateral{
